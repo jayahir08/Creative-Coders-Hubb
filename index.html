@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Coders Hubb - Freelance Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Creative Coders Hubb</span>
+            <span class="logo-symbol">&lt;/&gt;</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-headline">We Build Dynamic Digital Experiences</h1>
+                <p class="hero-subtext">Creative Coders Hubb helps brands and businesses craft stunning,
+                    high-performance web solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary">Hire Us</a>
+                    <a href="#projects" class="btn secondary">View Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/logo.png" alt="Developer Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="about-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        <strong>Creative Coders Hubb</strong> is a freelance web development hub specializing in
+                        creating dynamic, animated, and user-friendly websites and apps. We blend creativity with
+                        cutting-edge technology to deliver exceptional UI/UX designs and high-performance solutions.
+                    </p>
+                    <a href="#" class="btn primary" download>Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/Developer Vector.jpg" alt="Developer Vector">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites with modern frameworks and responsive design.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>App Development</h3>
+                    <p>Mobile and web apps built with React, Flutter, and more.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive designs that enhance user experience and engagement.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Custom Animations</h3>
+                    <p>Stunning animations to bring your site to life.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Cybersecurity</h3>
+                    <p>Protect your website and apps with advanced security solutions.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Integration</h3>
+                    <p>Seamless cloud solutions for better scalability and performance.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+        <h2>Our Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-modal="project1">
+                <img src="assets/project1.avif" alt="Project 1">
+                <div class="project-content">
+                    <h3>E-Commerce Site</h3>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="btn project-btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-modal="project2">
+                <img src="assets/project2.avif" alt="Project 2">
+                <div class="project-content">
+                    <h3>Mobile App</h3>
+                    <div class="tech-stack">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="btn project-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+
+
+
+
+        
+
+
+
+        <!-- Modal Placeholder -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Project Details</h3>
+                <p>Details here...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <img src="assets/men.jpg" alt="Client">
+                    <p>"Amazing work! Highly recommend."</p>
+                    <h4>John Doe</h4>
+                </div>
+                <!-- Add more testimonials -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Type your message" required></textarea>
+
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+
+            <div class="social-icons">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+
+
+            <!-- Google Maps Embed -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d4a32f7b2b0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1633072800000!5m2!1sen!2sus"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Creative Coders Hubb</span>
+                <span class="logo-symbol">&lt;/&gt;</span>
+            </div>
+            <p>&copy; 2023 Creative Coders Hubb. All rights reserved.</p>
+            <p>Launched in 24 hours — a functional website currently under active development.<br> Continual updates planned to enhance features, performance, and user experience.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <button class="scroll-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑</button>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+  document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+  });
+  document.onkeydown = function(e) {
+    if (e.keyCode == 123) return false; // F12 disable
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) return false;
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) return false;
+  }
+</script>
+
+</body>
+
+</html>
